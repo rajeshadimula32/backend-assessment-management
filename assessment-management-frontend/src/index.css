@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.homepage {
+  width: 1000px;
+  margin: auto;
+  height: 600px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.navbar a{
+  padding: 10px;
+  text-decoration: none;
+  font-size: 23px;
+  color: white;
+}
+
+.title{
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* Center the login form on the page */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #553b70 0%, #a625fc 100%);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Style the login container */
+.login {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Style the heading */
+.login h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 2rem;
+}
+
+/* Style the labels and inputs */
+.login label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.login input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 0.25rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Add hover effect to input fields */
+.login input:focus {
+  outline: none;
+  border-color: #2575fc;
+  box-shadow: 0 0 5px rgba(37, 117, 252, 0.3);
+}
+
+/* Style the submit button */
+.login button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #a03bde;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.25rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+/* Add hover effect to the button */
+.login button:hover {
+  background-color: #6a11cb;
+}
+
+/* Responsive design */
+@media (max-width: 400px) {
+  .login {
+    padding: 1.5rem;
+  }
+
+  .login h1 {
+    font-size: 1.75rem;
+  }
+
+  .login button {
+    font-size: 1rem;
+  }
+}
+
+
+.dashboard {
+  width: 1000px;
+  margin: auto;
+  height: 600px;
+}
